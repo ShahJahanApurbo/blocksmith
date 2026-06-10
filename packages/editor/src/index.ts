@@ -19,5 +19,10 @@ export type { EditorLayoutProps } from "./chrome/EditorLayout"
 
 export { EditorToolbar } from "./chrome/EditorToolbar"
 
+export { StyleManager, StyleManagerPanel } from "./style/StyleManager"
+export { setToken, getToken, getInheritedToken } from "./style/class-string-engine"
+export type { StyleContext, Breakpoint, InteractionState } from "./style/class-string-engine"
+export { useStyle } from "./style/use-style"
+
 export { ALLOWED_HTML_TAGS, ALLOWED_HTML_TAG_SET } from "./constants"
 export type { AllowedHtmlTag } from "./constants"

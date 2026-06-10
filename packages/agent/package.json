@@ -1,0 +1,33 @@
+{
+  "name": "@blocksmith/agent",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./tokens.json": "./src/tokens/design-tokens.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@blocksmith/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.0"
+  },
+  "author": {
+    "name": "Shah Jahan Apurbo",
+    "email": "ShahJahanApurbo@users.noreply.github.com",
+    "url": "https://github.com/ShahJahanApurbo"
+  }
+}

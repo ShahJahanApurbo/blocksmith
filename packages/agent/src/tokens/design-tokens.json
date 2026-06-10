@@ -1,0 +1,53 @@
+{
+  "colors": {
+    "background": "background",
+    "foreground": "foreground",
+    "card": "card",
+    "cardForeground": "card-foreground",
+    "primary": "primary",
+    "primaryForeground": "primary-foreground",
+    "secondary": "secondary",
+    "secondaryForeground": "secondary-foreground",
+    "muted": "muted",
+    "mutedForeground": "muted-foreground",
+    "accent": "accent",
+    "accentForeground": "accent-foreground",
+    "destructive": "destructive",
+    "destructiveForeground": "destructive-foreground",
+    "border": "border",
+    "input": "input",
+    "ring": "ring",
+    "classExamples": [
+      "bg-background",
+      "text-foreground",
+      "bg-primary",
+      "text-muted-foreground",
+      "border-border"
+    ]
+  },
+  "spacing": {
+    "scale": [0, 1, 2, 3, 4, 6, 8, 10, 12, 16, 20, 24, 32],
+    "sectionPadding": ["py-16", "py-20", "py-24"],
+    "gapRhythm": ["gap-4", "gap-6", "gap-8"]
+  },
+  "container": "max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8",
+  "typography": {
+    "display": "text-5xl/text-6xl font-bold tracking-tight",
+    "h1": "text-4xl font-bold tracking-tight",
+    "h2": "text-3xl font-semibold tracking-tight",
+    "h3": "text-xl font-semibold",
+    "body": "text-base text-muted-foreground leading-relaxed",
+    "small": "text-sm"
+  },
+  "radius": {
+    "cards": "rounded-lg",
+    "largeSurfaces": "rounded-xl",
+    "pills": "rounded-full"
+  },
+  "shadow": {
+    "cards": "shadow-sm",
+    "popovers": "shadow-md",
+    "modals": "shadow-lg"
+  },
+  "border": "border border-border"
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "root": {
+    "props": {
+      "className": "min-h-screen bg-background"
+    }
+  },
+  "content": [
+    {
+      "type": "Heading",
+      "props": {
+        "id": "heading-1",
+        "text": "Welcome to Blocksmith",
+        "className": "text-3xl font-bold tracking-tight"
+      }
+    },
+    {
+      "type": "Counter",
+      "props": {
+        "id": "counter-1",
+        "label": "Clicks"
+      }
+    }
+  ]
+}

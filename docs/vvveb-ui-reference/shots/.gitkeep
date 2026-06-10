@@ -1,0 +1,16 @@
+# Placeholder for Vvveb reference screenshots
+
+Add golden screenshots here for the screenshot-diff loop. See [README.md](./README.md) for the full capture list.
+
+Expected files:
+
+- `palette.png`
+- `style-manager.png`
+- `style-manager--typography.png`
+- `canvas--selected.png`
+- `canvas--hover.png`
+- `topbar.png`
+- `layers.png`
+- `context-menu.png`
+
+Capture at a fixed window size (e.g. 1440×900) and record the size in this file when done.

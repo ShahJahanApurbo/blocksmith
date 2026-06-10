@@ -1,0 +1,35 @@
+{
+  "id": "root-section",
+  "tag": "section",
+  "props": {
+    "className": "mx-auto max-w-3xl px-6 py-12"
+  },
+  "children": [
+    {
+      "id": "hero-heading",
+      "tag": "h1",
+      "props": {
+        "className": "text-4xl font-bold"
+      },
+      "children": [
+        {
+          "id": "hero-text",
+          "text": "Build pages with Blocksmith"
+        }
+      ]
+    },
+    {
+      "id": "hero-body",
+      "tag": "p",
+      "props": {
+        "className": "mt-4 text-muted-foreground"
+      },
+      "children": [
+        {
+          "id": "hero-body-text",
+          "text": "Agent-first JSX that compiles into an editable tree."
+        }
+      ]
+    }
+  ]
+}

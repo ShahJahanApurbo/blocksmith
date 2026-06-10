@@ -1,0 +1,22 @@
+{
+  "name": "blocksmith-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@changesets/cli": "^2.27.7",
+    "@playwright/test": "^1.45.0",
+    "tsup": "^8.1.0",
+    "turbo": "^2.0.6",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.0"
+  }
+}

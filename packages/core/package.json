@@ -32,5 +32,10 @@
     "tsup": "^8.1.0",
     "typescript": "^5.5.3",
     "vitest": "^2.0.0"
+  },
+  "author": {
+    "name": "Shah Jahan Apurbo",
+    "email": "ShahJahanApurbo@users.noreply.github.com",
+    "url": "https://github.com/ShahJahanApurbo"
   }
 }

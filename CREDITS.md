@@ -1,5 +1,8 @@
 # Credits
 
+Blocksmith is created and maintained by [Shah Jahan Apurbo](https://github.com/ShahJahanApurbo).
+
+
 Blocksmith stands on the shoulders of excellent open-source work:
 
 - **VvvebJs** (Apache-2.0) — UX inspiration for the visual editor and style manager.

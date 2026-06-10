@@ -50,5 +50,10 @@
     "typescript": "^5.5.3",
     "vite": "^5.4.2",
     "vitest": "^2.0.0"
+  },
+  "author": {
+    "name": "Shah Jahan Apurbo",
+    "email": "ShahJahanApurbo@users.noreply.github.com",
+    "url": "https://github.com/ShahJahanApurbo"
   }
 }

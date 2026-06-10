@@ -279,7 +279,7 @@ an original implementation.
 
 ```
 Blocksmith
-Copyright (c) 2026 <your name / org>
+Copyright (c) 2026 Shah Jahan Apurbo
 
 This product includes design and UX inspiration from VvvebJs
 (https://github.com/givanz/VvvebJs), licensed under the Apache License 2.0.

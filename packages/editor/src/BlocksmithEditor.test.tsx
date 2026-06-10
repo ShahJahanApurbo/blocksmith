@@ -12,7 +12,9 @@ describe("BlocksmithEditor", () => {
 
     expect(screen.getByText("Blocksmith")).toBeInTheDocument()
     expect(screen.getByText("Blocksmith Editor")).toBeInTheDocument()
-    expect(screen.getByRole("button", { name: "Button" })).toBeInTheDocument()
+    expect(
+      screen.getAllByRole("button", { name: "Button" }).length,
+    ).toBeGreaterThanOrEqual(1)
   })
 
   it("accepts custom canvas children", () => {

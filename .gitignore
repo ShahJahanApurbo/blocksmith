@@ -6,6 +6,12 @@ dist/
 .DS_Store
 .env*
 
+# Playwright artifacts (baselines in e2e/__screenshots__/ are committed)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
 # Reference repos are LOCAL context only — never commit/publish them.
 references/
 **/references/

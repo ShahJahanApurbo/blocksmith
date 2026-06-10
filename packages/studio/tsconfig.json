@@ -1,8 +1,53 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src"
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2021"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@blocksmith/core": [
+        "../core/src/index.ts"
+      ],
+      "@blocksmith/runtime": [
+        "../runtime/src/index.ts"
+      ],
+      "@blocksmith/editor": [
+        "../editor/src/index.ts"
+      ],
+      "@blocksmith/components": [
+        "../components/src/index.ts"
+      ],
+      "@blocksmith/agent": [
+        "../agent/src/index.ts"
+      ]
+    },
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
-  "include": ["src"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

@@ -19,6 +19,9 @@ export type { EditorLayoutProps } from "./chrome/EditorLayout"
 
 export { EditorToolbar } from "./chrome/EditorToolbar"
 
+export { BlocksPalette } from "./chrome/BlocksPalette"
+export { LayersPanel } from "./chrome/LayersPanel"
+
 export { StyleManager, StyleManagerPanel } from "./style/StyleManager"
 export { setToken, getToken, getInheritedToken } from "./style/class-string-engine"
 export type { StyleContext, Breakpoint, InteractionState } from "./style/class-string-engine"
